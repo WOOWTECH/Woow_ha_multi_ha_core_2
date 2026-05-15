@@ -1,7 +1,7 @@
 name: "Woow HA Core 2"
 description: "Woow Home Assistant Core instance 2"
-version: "1.0.0"
-slug: "hassception2"
+version: "1.0.1"
+slug: "woow_ha_core_2"
 init: false
 arch:
   - aarch64
@@ -11,6 +11,5 @@ arch:
   - i386
 ports:
   8123/tcp: 8125
-
 map:
   - "config:rw"
